@@ -1,35 +1,24 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import HeroPage from "./components/Heropage/hero";
+import Mainpage from "./components/Mainpage/mainpage";
+import PricePage from "./components/Pricepage/pricePage";
+import FormPage from "./components/Formpage/formpage";
+import FaqPage from "./components/Faqpage/faqpage";
+import OptimizePage from "./components/Optimizepage/optimizePage";
+import Footer from "./components/Footer/footer";
+import Data from "./data";
 
-function App() {
-  const [count, setCount] = useState(0)
-
+const App = () => {
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    <div>
+      <HeroPage />
+      <Mainpage />
+      <PricePage />
+      <FormPage/>
+      <FaqPage Data = {Data} />
+      <OptimizePage />
+      <Footer />
+    </div>
   )
 }
 
-export default App
+export default App;
