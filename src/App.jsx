@@ -9,7 +9,7 @@ import Data from "./data";
 
 const App = () => {
   return (
-    <div>
+    <div className="px-20 py-4">
       <HeroPage />
       <Mainpage />
       <PricePage />

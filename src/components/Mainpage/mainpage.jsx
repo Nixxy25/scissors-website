@@ -2,49 +2,54 @@
 const Mainpage = () => {
   return (
     <div>
-        <div>
-            <div>
-                <div>One Stop.Four <span>Possibilities.</span></div>
+        <div className="flex flex-col gap-20">
+            <div className="flex justify-between py-10 items-center">
+                <div className="text-3xl font-bold">
+                    <div className="">One Stop.</div>
+                    <div className="text-blue-600">Four Possibilities.</div>
+                </div>
 
-                <div>
+                <div className="flex gap-20 font-bold">
                     <div>
-                        <span>3M</span>
-                        <h3>Active users</h3>
+                        <span className="text-xl">3M</span>
+                        <h3 className="font-medium">Active users</h3>
                     </div>
 
                     <div>
-                        <span>60M</span>
-                        <h3>Links & QR codes created</h3>
+                        <span className="text-xl">60M</span>
+                        <h3 className="font-medium">Links & QR</h3>
+                        <h3 className="font-medium">codes created</h3>
                     </div>
 
                     <div>
-                        <span>1B</span>
-                        <h3>Clicked & Scanned connections</h3>
+                        <span className="text-xl">1B</span>
+                        <h3 className="font-medium">Clicked & Scanned</h3>
+                        <h3 className="font-medium">connections</h3>
                     </div>
 
                     <div>
-                        <span>300k</span>
-                        <h3>App Integrations</h3>
+                        <span className="text-xl">300k</span>
+                        <h3 className="font-medium">App Integrations</h3>
                     </div>   
                 </div>
             </div>
 
-            <div>
-                <div>
-                    <div>
+            <div className="flex gap-16 justify-between  item-center">
+                <div className="w-3/12">
+                    <div className="flex gap-2 item-center">
                         <div>
                             <svg width="6" height="48" viewBox="0 0 6 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M3 0V48" stroke="url(#paint0_linear_1_334)" />
+                            <path d="M3 0V48" stroke="url(#paint0_linear_1_334)" stroke-width="5"/>
                             <defs>
                             <linearGradient id="paint0_linear_1_334" x1="3.05" y1="0" x2="3.05" y2="48" gradientUnits="userSpaceOnUse">
-                            <stop />
-                            <stop offset="1" />
+                            <stop stop-color="#112232"/>
+                            <stop offset="1" stop-color="#4D6B88" stop-opacity="0"/>
                             </linearGradient>
                             </defs>
                             </svg>
                         </div>
 
-                        <div>Why choose <span>Scissors</span></div>
+                        <div className="text-2xl font-bold">Why choose <span className="text-blue-800">Scissors</span></div>
                     </div>
 
                     <div>
@@ -54,8 +59,8 @@ const Mainpage = () => {
                     </div>
                 </div>
 
-                <div>
-                    <div>
+                <div className="grid grid-cols-2 gap-8 w-3/5">
+                    <div className="flex flex-col gap-5">
                         <div>
                             <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g clip-path="url(#clip0_1_203)">
@@ -70,11 +75,11 @@ const Mainpage = () => {
                             </svg>
                         </div>
 
-                        <div>URL Shortening</div>
+                        <div className="text-xl font-semibold">URL Shortening</div>
                         <div>Scissor allows you to shorten URLs of your business, events. Shorten your URL at scale, URL redirects.</div>
                     </div>
 
-                    <div>
+                    <div  className="flex flex-col gap-5">
                         <div>
                             <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M11.1 4H4.10001C3.56957 4 3.06087 4.21071 2.68579 4.58579C2.31072 4.96086 2.10001 5.46957 2.10001 6V20C2.10001 20.5304 2.31072 21.0391 2.68579 21.4142C3.06087 21.7893 3.56957 22 4.10001 22H18.1C18.6304 22 19.1391 21.7893 19.5142 21.4142C19.8893 21.0391 20.1 20.5304 20.1 20V13" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -82,11 +87,11 @@ const Mainpage = () => {
                             </svg>  
                         </div>
 
-                        <div>Custom URLs</div>
+                        <div className="text-xl font-semibold">Custom URLs</div>
                         <div>With Scissor, you can create custom URLs, with the length you want! A solution for socials and businesses.</div>
                     </div>
 
-                    <div>
+                    <div  className="flex flex-col gap-5">
                         <div>
                             <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M10.8859 3.06763H3.88589V10.0676H10.8859V3.06763Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -96,11 +101,11 @@ const Mainpage = () => {
                             </svg>
                         </div>
 
-                        <div>QR Codes</div>
+                        <div className="text-xl font-semibold">QR Codes</div>
                         <div>Generate QR codes to your business, events. Bring your audience and customers to your doorstep with this scan and go solution.</div>
                     </div>
 
-                    <div>
+                    <div  className="flex flex-col gap-5">
                         <div>
                             <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g clip-path="url(#clip0_1_236)">
@@ -114,7 +119,7 @@ const Mainpage = () => {
                             </svg>  
                         </div>
 
-                        <div>Data Analytics</div>
+                        <div className="text-xl font-semibold">Data Analytics</div>
                         <div>Receive data on the usage of either your shortened URL, custom URLs or generated QR codes. Embedded to monitor progress.</div>
                     </div>
                 </div>
