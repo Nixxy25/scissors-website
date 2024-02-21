@@ -6,13 +6,14 @@ import FaqPage from "./components/Faqpage/faqpage";
 import OptimizePage from "./components/Optimizepage/optimizePage";
 import Footer from "./components/Footer/footer";
 import Data from "./data";
+import PriceData from "./pricedata.js";
 
 const App = () => {
   return (
     <div className="px-20 py-4">
       <HeroPage />
       <Mainpage />
-      <PricePage />
+      <PricePage PriceData = {PriceData} />
       <FormPage/>
       <FaqPage Data = {Data} />
       <OptimizePage />

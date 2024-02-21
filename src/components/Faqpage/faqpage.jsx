@@ -16,8 +16,7 @@ const FaqPage = ({Data}) => {
             <h3>FAQs</h3>
         </div>
 
-        {
-            Data.map((items, index) => {
+        {Data.map((items, index) => {
                 return(
                     <div key={index}>
                         <p>{items.title}</p>
