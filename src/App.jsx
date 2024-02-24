@@ -10,11 +10,11 @@ import PriceData from "./pricedata.js";
 
 const App = () => {
   return (
-    <div className="px-20 py-4">
+    <div >
       <HeroPage />
       <Mainpage />
       <PricePage PriceData = {PriceData} />
-      <FormPage/>
+      <FormPage />
       <FaqPage Data = {Data} />
       <OptimizePage />
       <Footer />

@@ -2,9 +2,11 @@
 
 const PricePage = ({PriceData}) => {
   return (
-    <div className="mb-16">
-        <div className="bg-blue flex flex-col my-16 gap-12">
-            <div className="flex flex-col justify-center items-center">
+    <div className="mb-16 mx-20">
+
+    
+        <div className="flex flex-col my-16 gap-12">
+            <div className="flex flex-col justify-center items-center text-black">
                 <div className="flex items-center gap-2">
                     <svg width="6" height="48" viewBox="0 0 6 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M3 0V48" stroke="url(#paint0_linear_1_334)" stroke-width="5"/>
@@ -15,7 +17,7 @@ const PricePage = ({PriceData}) => {
                     </linearGradient>
                     </defs>
                     </svg>
-                    <h1 className="text-4xl font-bold">A <span className="text-blue-800">price perfect </span>for your needs.</h1>
+                    <h1 className="text-4xl font-bold">A <span className="text-blue">price perfect </span>for your needs.</h1>
                 </div>
 
                 <h3>From catering for your personal, business, event, socials needs, you can be </h3>
@@ -23,10 +25,10 @@ const PricePage = ({PriceData}) => {
             </div>
 
             {PriceData.map((items, index) => (
-                <div key={index} className="flex justify-around">
+                <div key={index} className="flex relative justify-around text-black">
                     {items.array1.map((arrayItems, arrayIndex) => (
-                        <div key={arrayIndex} className="flex flex-col gap-4 border-2 border-blue-700 p-12">
-                            <h3 className="pb-6">{arrayItems.title}</h3>
+                        <div key={arrayIndex} className="flex flex-col gap-6 border-2 border-blues rounded-lg p-12">
+                            <h3 className="pb-6 text-xl">{arrayItems.title}</h3>
                             <h1 className="text-2xl font-bold">{arrayItems.price}</h1>
                             <h3>{arrayItems.more}</h3>
                             
@@ -58,8 +60,10 @@ const PricePage = ({PriceData}) => {
                     ))}
 
                     {items.array2.map((arrayItems, arrayIndex) => (
-                        <div key={arrayIndex} className="flex flex-col gap-4 bg-blue-900 z-20 p-12">
-                            <h3 className="pb-6">{arrayItems.title}</h3>
+                        <div key={arrayIndex} className="flex absolute  flex-col gap-6 bg-deep-blue text-white z-20 p-12" style={{
+                            // height:"500px",
+                        }}>
+                            <h3 className="pb-6 text-xl">{arrayItems.title}</h3>
                             <h1 className="text-2xl font-bold">{arrayItems.price}</h1>
                             <h3>{arrayItems.more}</h3>
                             
@@ -95,8 +99,8 @@ const PricePage = ({PriceData}) => {
                     ))}
 
                     {items.array3.map((arrayItems, arrayIndex) => (
-                        <div key={arrayIndex} className="flex flex-col gap-4 border-2 border-blue-700 p-12">
-                            <h3 className="pb-6">{arrayItems.title}</h3>
+                        <div key={arrayIndex} className="flex flex-col gap-6 border-2 border-blues p-12">
+                            <h3 className="pb-6 text-xl">{arrayItems.title}</h3>
                             <h1 className="text-2xl font-bold">{arrayItems.price}</h1>
                             <h3>{arrayItems.more}</h3>
                             
@@ -130,9 +134,9 @@ const PricePage = ({PriceData}) => {
             ))}
         </div>
 
-        <div className="flex items-center gap-4 justify-center">
-          <button className="rounded-full py-2 px-2 text-sm border-2 border-blue-500 text-blue-500" type="text">Get Custom Pricing</button>      
-          <button type="text" className="text-white rounded-full bg-blue-500 py-2 px-4">Select Pricing</button>                      
+        <div className="flex items-center gap-8 justify-center">
+          <button className="rounded-full py-2 px-4 text-sm border-2 border-blue text-blue focus:outline-none" type="text">Get Custom Pricing</button>      
+          <button type="text" className="text-white rounded-full bg-blue py-2 px-6 focus:outline-none">Select Pricing</button>                      
         </div>
     </div>
   )
