@@ -33,17 +33,17 @@ const FormPage = () => {
     </div>
     
         <div className="bg-white p-10 relative  flex flex-col gap-4 bottom-0 left-0 right-0 mx-auto">
-            <div className="rounded-full border-2 border-blue p-2 text-blue"><input type="text" value="Paste Url here"></input></div>
+            <div><input className="rounded-lg w-full border-2 border-blue p-4 text-blue focus:outline-none placeholder-blue" type="text" placeholder="Paste Url here"></input></div>
 
             <div className="flex justify gap-8">
-              <div className="flex items-center p-2 rounded-full border-2 border-blue focus:outline-none text-blue">
-                <input className="" type="text" value="Choose Domain"></input>
+              <div className="flex items-center rounded-lg border-2 border-blue p-4  focus:outline-none text-blue">
+                <input className="text-blue focus:outline-none placeholder-blue" type="text" placeholder="Choose Domain"></input>
                 <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6.08649 9L12.0865 15L18.0865 9" stroke="#141414" stroke-linecap="round" stroke-linejoin="round"/></svg>
               </div>
 
               
                
-                <input className="rounded-full border-2 border-blue text-blue focus:outline-none  px-4 py-2" type="text" value="Type Alias here"></input>
+                <input className="rounded-lg border-2 border-blue text-blue placeholder-blue focus:outline-none p-4" type="text" placeholder="Type Alias here"></input>
             </div>
             
             <div className="bg-blue rounded-full p-2 text-center text-white focus:outline-none"><button type="button">Trim URL</button></div>

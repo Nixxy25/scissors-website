@@ -4,8 +4,9 @@ import Image2 from "../../assets/hero-image2.png";
 const HeroPage = () => {
   return (
     <div>
-        <div className="flex flex-col gap-12  mx-20 my-4 ">
-            <div className="flex flex-col gap-12 bg-[radial-gradient(circle_at_bottom_left,_var(--tw-gradient-stops))] from-white via-orange to-white">
+        <div className="flex flex-col gap-12">
+            <div className="bg-[radial-gradient(circle_at_bottom_left,_var(--tw-gradient-stops))] from-white via-orange to-white b-2 border-blue">
+            <div className="flex flex-col gap-12 mx-20 my-4">
             <nav className="flex justify-between ">
                 <div className="">
                 <svg width="156" height="40" viewBox="0 0 156 40" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -56,6 +57,7 @@ const HeroPage = () => {
                     <button className="rounded-full px-8 py-2 bg-blue text-white focus:outline-none" type="button">Sign Up</button>
                     <h3 className="text-blue">Learn more</h3>
                 </div>
+            </div>
             </div>
             </div>
             </div>

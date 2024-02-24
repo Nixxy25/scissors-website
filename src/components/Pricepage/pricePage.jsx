@@ -6,7 +6,7 @@ const PricePage = ({PriceData}) => {
 
     
         <div className="flex flex-col my-16 gap-12">
-            <div className="flex flex-col justify-center items-center text-black">
+            <div className="flex flex-col justify-center items-center text-black mb-8">
                 <div className="flex items-center gap-2">
                     <svg width="6" height="48" viewBox="0 0 6 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M3 0V48" stroke="url(#paint0_linear_1_334)" stroke-width="5"/>
@@ -25,7 +25,7 @@ const PricePage = ({PriceData}) => {
             </div>
 
             {PriceData.map((items, index) => (
-                <div key={index} className="flex relative justify-around text-black">
+                <div key={index} className="flex relative justify-around text-black mb-12">
                     {items.array1.map((arrayItems, arrayIndex) => (
                         <div key={arrayIndex} className="flex flex-col gap-6 border-2 border-blues rounded-lg p-12">
                             <h3 className="pb-6 text-xl">{arrayItems.title}</h3>
@@ -60,8 +60,8 @@ const PricePage = ({PriceData}) => {
                     ))}
 
                     {items.array2.map((arrayItems, arrayIndex) => (
-                        <div key={arrayIndex} className="flex absolute  flex-col gap-6 bg-deep-blue text-white z-20 p-12" style={{
-                            // height:"500px",
+                        <div key={arrayIndex} className="flex absolute -top-14 rounded-lg justify-center flex-col gap-6 bg-deep-blue text-white z-20 p-12" style={{
+                            height:"600px",
                         }}>
                             <h3 className="pb-6 text-xl">{arrayItems.title}</h3>
                             <h1 className="text-2xl font-bold">{arrayItems.price}</h1>
