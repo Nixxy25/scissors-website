@@ -39,11 +39,11 @@ const Mainpage = () => (
                     <div className="flex gap-2 item-center">
                         <div>
                             <svg width="6" height="48" viewBox="0 0 6 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M3 0V48" stroke="url(#paint0_linear_1_334)" stroke-width="5" />
+                                <path d="M3 0V48" stroke="url(#paint0_linear_1_334)" strokeWidth="5" />
                                 <defs>
                                     <linearGradient id="paint0_linear_1_334" x1="3.05" y1="0" x2="3.05" y2="48" gradientUnits="userSpaceOnUse">
-                                        <stop stop-color="#112232" />
-                                        <stop offset="1" stop-color="#4D6B88" stop-opacity="0" />
+                                        <stop stopColor="#112232" />
+                                        <stop offset="1" stopColor="#4D6B88" stopOpacity="0" />
                                     </linearGradient>
                                 </defs>
                             </svg>
@@ -63,11 +63,11 @@ const Mainpage = () => (
                     <div className="flex flex-col gap-5">
                         <div>
                         <svg width="57" height="56" viewBox="0 0 57 56" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <g clip-path="url(#clip0_1_202)">
-                        <path d="M31.1 23H34.1C34.7566 23 35.4068 23.1293 36.0134 23.3806C36.6201 23.6319 37.1712 24.0002 37.6355 24.4645C38.0998 24.9288 38.4681 25.48 38.7194 26.0866C38.9707 26.6932 39.1 27.3434 39.1 28C39.1 28.6566 38.9707 29.3068 38.7194 29.9134C38.4681 30.52 38.0998 31.0712 37.6355 31.5355C37.1712 31.9998 36.6201 32.3681 36.0134 32.6194C35.4068 32.8707 34.7566 33 34.1 33H31.1M25.1 33H22.1C21.4434 33 20.7932 32.8707 20.1866 32.6194C19.58 32.3681 19.0288 31.9998 18.5645 31.5355C17.6268 30.5979 17.1 29.3261 17.1 28C17.1 26.6739 17.6268 25.4021 18.5645 24.4645C19.5022 23.5268 20.7739 23 22.1 23H25.1" stroke="#141414" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M24.1 28H32.1" stroke="#005AE2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <g clipPath="url(#clip0_1_202)">
+                        <path d="M31.1 23H34.1C34.7566 23 35.4068 23.1293 36.0134 23.3806C36.6201 23.6319 37.1712 24.0002 37.6355 24.4645C38.0998 24.9288 38.4681 25.48 38.7194 26.0866C38.9707 26.6932 39.1 27.3434 39.1 28C39.1 28.6566 38.9707 29.3068 38.7194 29.9134C38.4681 30.52 38.0998 31.0712 37.6355 31.5355C37.1712 31.9998 36.6201 32.3681 36.0134 32.6194C35.4068 32.8707 34.7566 33 34.1 33H31.1M25.1 33H22.1C21.4434 33 20.7932 32.8707 20.1866 32.6194C19.58 32.3681 19.0288 31.9998 18.5645 31.5355C17.6268 30.5979 17.1 29.3261 17.1 28C17.1 26.6739 17.6268 25.4021 18.5645 24.4645C19.5022 23.5268 20.7739 23 22.1 23H25.1" stroke="#141414" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                        <path d="M24.1 28H32.1" stroke="#005AE2" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                         </g>
-                        <circle cx="28.1" cy="28" r="28" fill="#3284FF" fill-opacity="0.13"/>
+                        <circle cx="28.1" cy="28" r="28" fill="#3284FF" fillOpacity="0.13"/>
                         <defs>
                         <clipPath id="clip0_1_202">
                         <rect width="24" height="24" fill="white" transform="translate(16.1 16)"/>
@@ -84,9 +84,9 @@ const Mainpage = () => (
                     <div className="flex flex-col gap-5">
                         <div>
                             <svg width="57" height="56" viewBox="0 0 57 56" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M27.1 20H20.1C19.5696 20 19.0609 20.2107 18.6858 20.5858C18.3107 20.9609 18.1 21.4696 18.1 22V36C18.1 36.5304 18.3107 37.0391 18.6858 37.4142C19.0609 37.7893 19.5696 38 20.1 38H34.1C34.6304 38 35.1391 37.7893 35.5142 37.4142C35.8893 37.0391 36.1 36.5304 36.1 36V29" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M34.6 18.5C34.9978 18.1022 35.5374 17.8787 36.1 17.8787C36.6626 17.8787 37.2022 18.1022 37.6 18.5C37.9978 18.8978 38.2213 19.4374 38.2213 20C38.2213 20.5626 37.9978 21.1022 37.6 21.5L28.1 31L24.1 32L25.1 28L34.6 18.5Z" stroke="#005AE2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            <circle cx="28.1" cy="28" r="28" fill="#3284FF" fill-opacity="0.13"/>
+                            <path d="M27.1 20H20.1C19.5696 20 19.0609 20.2107 18.6858 20.5858C18.3107 20.9609 18.1 21.4696 18.1 22V36C18.1 36.5304 18.3107 37.0391 18.6858 37.4142C19.0609 37.7893 19.5696 38 20.1 38H34.1C34.6304 38 35.1391 37.7893 35.5142 37.4142C35.8893 37.0391 36.1 36.5304 36.1 36V29" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                            <path d="M34.6 18.5C34.9978 18.1022 35.5374 17.8787 36.1 17.8787C36.6626 17.8787 37.2022 18.1022 37.6 18.5C37.9978 18.8978 38.2213 19.4374 38.2213 20C38.2213 20.5626 37.9978 21.1022 37.6 21.5L28.1 31L24.1 32L25.1 28L34.6 18.5Z" stroke="#005AE2" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                            <circle cx="28.1" cy="28" r="28" fill="#3284FF" fillOpacity="0.13"/>
                             </svg>
                         
                         </div>
@@ -98,11 +98,11 @@ const Mainpage = () => (
                     <div className="flex flex-col gap-5">
                         <div>
                             <svg width="57" height="56" viewBox="0 0 57 56" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M25.8859 19.0676H18.8859V26.0676H25.8859V19.0676Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M36.8859 19.0676H29.8859V26.0676H36.8859V19.0676Z" stroke="#005AE2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M36.8859 30.0676H29.8859V37.0676H36.8859V30.0676Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M25.8859 30.0676H18.8859V37.0676H25.8859V30.0676Z" stroke="#005AE2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            <circle cx="28.1" cy="28" r="28" fill="#3284FF" fill-opacity="0.13"/>
+                            <path d="M25.8859 19.0676H18.8859V26.0676H25.8859V19.0676Z" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                            <path d="M36.8859 19.0676H29.8859V26.0676H36.8859V19.0676Z" stroke="#005AE2" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                            <path d="M36.8859 30.0676H29.8859V37.0676H36.8859V30.0676Z" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                            <path d="M25.8859 30.0676H18.8859V37.0676H25.8859V30.0676Z" stroke="#005AE2" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                            <circle cx="28.1" cy="28" r="28" fill="#3284FF" fillOpacity="0.13"/>
                             </svg>
                             
                         </div>
@@ -114,10 +114,10 @@ const Mainpage = () => (
                     <div className="flex flex-col gap-5">
                         <div>
                             <svg width="57" height="56" viewBox="0 0 57 56" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <g clip-path="url(#clip0_1_234)">
-                            <path d="M37.1 28H33.1L30.1 37L24.1 19L21.1 28H17.1" stroke="#0065FE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <g clipPath="url(#clip0_1_234)">
+                            <path d="M37.1 28H33.1L30.1 37L24.1 19L21.1 28H17.1" stroke="#0065FE" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                             </g>
-                            <circle cx="28.1" cy="28" r="28" fill="#3284FF" fill-opacity="0.13"/>
+                            <circle cx="28.1" cy="28" r="28" fill="#3284FF" fillOpacity="0.13"/>
                             <defs>
                             <clipPath id="clip0_1_234">
                             <rect width="24" height="24" fill="white" transform="translate(16.1 16)"/>
