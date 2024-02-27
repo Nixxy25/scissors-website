@@ -74,19 +74,23 @@ const HeroPage = () => {
             </nav>
 
             <div className="flex flex-col items-center ">
-            <div className="text-center items-center flex flex-col gap-8 w-2/3">
-                <h1 className="text-4xl font-bold text-black">Optimize Your Online Experience with Our</h1>
-                <div className="flex text-4xl font-bold gap-2 text-black">
-                <h1 className=" ">Advanced</h1>
+            <div className="text-center items-center flex flex-col gap-8 w-2/3 max-sm:w-full max-sm:gap-4">
+                <h1 className="text-4xl font-bold text-black max-sm:text-2xl">Optimize Your Online Experience with Our</h1>
+                
+                <div className="flex text-4xl font-bold gap-2 text-black max-sm:text-2xl max-sm:flex-col">
+
+                <div className="flex gap-2 ">
+                <h1 className="">Advanced</h1>
                 
                 <div className="text-blue">
-                    URL Shortening
-                    <svg width="174" height="21" viewBox="0 0 174 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <h1>URL Shortening</h1>
+                    <svg width="174"height="21" viewBox="0 0 174 21" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M162.517 0.905029C75.1007 1.58333 17.7488 11.4833 0 16.3486L9.28502 15.694L2.32125 17.9693L10.2135 17.6848L6.03526 19.3913L12.0705 20.8133C52.0748 16.4528 149.09 6.6406 173.63 5.2387L155.524 4.88668C165.556 3.5543 166.666 3.60686 166.666 3.60686C166.666 3.60686 162.517 2.61145 162.517 0.905029Z" fill="#005AE2"/>
-                    </svg></div>
+                    </svg>
+                </div></div>
                     <h1>Solution</h1>
                 </div>
-                <h3 className="mx-20 text-black">Personalize your shortened URLs to align with your brand identity. Utilize custom slugs, branded links, and domain customization options to reinforce your brand presence and enhance user engagement.</h3>
+                <h3 className="mx-20 max-sm:mx-auto text-start text-black">Personalize your shortened URLs to align with your brand identity. Utilize custom slugs, branded links, and domain customization options to reinforce your brand presence and enhance user engagement.</h3>
 
                 <div className="flex gap-8 items-center">
                     <button className="rounded-full px-8 py-2 bg-blue text-white focus:outline-none" type="button">Sign Up</button>
@@ -98,7 +102,7 @@ const HeroPage = () => {
             </div>
 
             
-            <div className="flex justify-center item-center ml-20">
+            <div className="flex justify-center item-center ml-20 max-sm:mx-2 max-sm:ml-0">
                 <img alt="hero-image2" src={Image}/>
             </div>
 

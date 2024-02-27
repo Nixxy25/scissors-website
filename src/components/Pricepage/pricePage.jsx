@@ -2,7 +2,7 @@
 
 const PricePage = ({PriceData}) => {
   return (
-    <div className="mb-16 mx-20">
+    <div className="mb-16 mx-20 max-sm:mx-10">
 
     
         <div className="flex flex-col my-16 gap-12">
@@ -17,7 +17,7 @@ const PricePage = ({PriceData}) => {
                     </linearGradient>
                     </defs>
                     </svg>
-                    <h1 className="text-4xl font-bold">A <span className="text-blue">price perfect </span>for your needs.</h1>
+                    <h1 className="text-4xl max-sm:text-2xl font-bold">A <span className="text-blue">price perfect </span>for your needs.</h1>
                 </div>
 
                 <h3>From catering for your personal, business, event, socials needs, you can be </h3>
@@ -25,7 +25,7 @@ const PricePage = ({PriceData}) => {
             </div>
 
             {PriceData.map((items, index) => (
-                <div key={index} className="flex gap-14 relative justify-around text-black mb-12">
+                <div key={index} className="flex gap-14 relative justify-around text-black mb-12 max-sm:flex-col">
                     {items.array1.map((arrayItems, arrayIndex) => (
                         <div key={arrayIndex} className="flex flex-col gap-6 border-2 border-blues rounded-lg p-12">
                             <h3 className="pb-6 text-xl">{arrayItems.title}</h3>
@@ -60,7 +60,7 @@ const PricePage = ({PriceData}) => {
                     ))}
 
                     {items.array2.map((arrayItems, arrayIndex) => (
-                        <div key={arrayIndex} className="flex absolute -top-14 rounded-lg justify-center flex-col gap-6 bg-deep-blue text-white z-20 p-12" style={{
+                        <div key={arrayIndex} className="flex absolute -top-14 rounded-lg justify-center flex-col gap-6 bg-deep-blue text-white z-20 p-12 max-sm:relative max-sm:top-0" style={{
                             height:"600px",
                         }}>
                             <h3 className="pb-6 text-xl">{arrayItems.title}</h3>
@@ -134,8 +134,8 @@ const PricePage = ({PriceData}) => {
         </div>
 
         <div className="flex items-center gap-8 justify-center">
-          <button className="rounded-full py-2 px-4 text-sm border-2 border-blue text-blue focus:outline-none" type="text">Get Custom Pricing</button>      
-          <button type="text" className="text-white rounded-full bg-blue py-2 px-6 focus:outline-none">Select Pricing</button>                      
+          <button className="rounded-full py-2 px-4 max-sm:px-3 text-sm border-2 border-blue text-blue focus:outline-none" type="text">Get Custom Pricing</button>      
+          <button type="text" className="text-white rounded-full max-sm:px-3 bg-blue py-2 px-6 focus:outline-none">Select Pricing</button>                      
         </div>
     </div>
   )
