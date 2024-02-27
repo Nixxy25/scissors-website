@@ -7,6 +7,7 @@ import OptimizePage from "./components/Optimizepage/optimizePage";
 import Footer from "./components/Footer/footer";
 import Data from "./data";
 import PriceData from "./pricedata.js";
+import "./App.css";
 
 const App = () => {
   return (
