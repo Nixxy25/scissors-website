@@ -3,38 +3,38 @@ const Mainpage = () => (
     <div>
         <div className="flex flex-col gap-20 text-black ">
         <div className="bg-cyan">
-            <div className="flex justify-between py-10 items-center mx-20 max-sm:flex-col max-sm:gap-16">
-                <div className="text-3xl font-bold">
+            <div className="flex justify-between py-10 items-center mx-20 max-sm:flex-col max-sm:gap-16 max-lg:mx-10">
+                <div className="text-3xl max-sm:text-center font-bold max-lg:text-2xl">
                     <div>One Stop.</div>
                     <div>Four <span className="text-blue">Possibilities.</span></div>
                 </div>
 
-                <div className="flex gap-20 font-bold max-sm:flex-col max-sm:justify-center">
+                <div className="flex gap-20 max-lg:gap-6 font-bold max-sm:flex-col max-sm:gap-16 max-sm:text-center">
                     <div>
                         <span className="text-xl max-sm:text-3xl">3M</span>
-                        <h3 className="font-medium">Active users</h3>
+                        <h3 className="font-medium max-lg:text-sm">Active users</h3>
                     </div>
 
                     <div>
                         <span className="text-xl max-sm:text-3xl">60M</span>
-                        <h3 className="font-medium">Links & QR</h3>
-                        <h3 className="font-medium">codes created</h3>
+                        <h3 className="font-medium max-lg:text-sm">Links & QR</h3>
+                        <h3 className="font-medium max-lg:text-sm">codes created</h3>
                     </div>
 
                     <div>
                         <span className="text-xl max-sm:text-3xl">1B</span>
-                        <h3 className="font-medium">Clicked & Scanned</h3>
-                        <h3 className="font-medium">connections</h3>
+                        <h3 className="font-medium max-lg:text-sm">Clicked & Scanned</h3>
+                        <h3 className="font-medium max-md:text-sm">connections</h3>
                     </div>
 
                     <div>
                         <span className="text-xl max-sm:text-3xl">300k</span>
-                        <h3 className="font-medium">App Integrations</h3>
+                        <h3 className="font-medium max-lg:text-sm">App Integrations</h3>
                     </div>
                 </div>
             </div>
             </div>
-            <div className="flex gap-16 justify-between  item-center mx-20 max-sm:mx-10 max-sm:flex-col ">
+            <div className="flex gap-16 justify-between  item-center mx-20 max-sm:mx-10 max-lg:mx-10 max-sm:flex-col ">
                 <div className="w-3/12 max-sm:w-full">
                     <div className="flex gap-2 item-center">
                         <div>
@@ -52,7 +52,7 @@ const Mainpage = () => (
                         <div className="text-2xl font-bold">Why choose <span className="text-blue">Scissors</span></div>
                     </div>
 
-                    <div>
+                    <div className="max-lg:text-sm">
                         Scissors is the hub of everything that has to do with your link management. We shorten your URLs,
                         allow you creating custom ones for your personal, business, event usage. Our swift QR code creation,
                         management and usage tracking with advance analytics for all of these is second to none.
@@ -78,7 +78,7 @@ const Mainpage = () => (
                         </div>
 
                         <div className="text-xl font-semibold">URL Shortening</div>
-                        <div className="max-sm:text-sm">Scissor allows you to shorten URLs of your business, events. Shorten your URL at scale, URL redirects.</div>
+                        <div className="max-sm:text-sm max-lg:text-sm">Scissor allows you to shorten URLs of your business, events. Shorten your URL at scale, URL redirects.</div>
                     </div>
 
                     <div className="flex flex-col gap-5">
@@ -92,7 +92,7 @@ const Mainpage = () => (
                         </div>
 
                         <div className="text-xl font-semibold">Custom URLs</div>
-                        <div className="max-sm:text-sm">With Scissor, you can create custom URLs, with the length you want! A solution for socials and businesses.</div>
+                        <div className="max-sm:text-sm max-lg:text-sm">With Scissor, you can create custom URLs, with the length you want! A solution for socials and businesses.</div>
                     </div>
 
                     <div className="flex flex-col gap-5">
@@ -108,7 +108,7 @@ const Mainpage = () => (
                         </div>
 
                         <div className="text-xl font-semibold">QR Codes</div>
-                        <div className="max-sm:text-sm">Generate QR codes to your business, events. Bring your audience and customers to your doorstep with this scan and go solution.</div>
+                        <div className="max-sm:text-sm max-lg:text-sm">Generate QR codes to your business, events. Bring your audience and customers to your doorstep with this scan and go solution.</div>
                     </div>
 
                     <div className="flex flex-col gap-5">
@@ -128,7 +128,7 @@ const Mainpage = () => (
                         </div>
 
                         <div className="text-xl font-semibold">Data Analytics</div>
-                        <div className="max-sm:text-sm">Receive data on the usage of either your shortened URL, custom URLs or generated QR codes. Embedded to monitor progress.</div>
+                        <div className="max-sm:text-sm max-lg:text-sm">Receive data on the usage of either your shortened URL, custom URLs or generated QR codes. Embedded to monitor progress.</div>
                     </div>
                 </div>
             </div>

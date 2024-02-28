@@ -61,7 +61,7 @@ const FaqPage = ({Data}) => {
         </defs>
         </svg>
     </div>
-        <div className="mb-24 mx-72 max-sm:mx-10">
+        <div className="mb-24 mx-72 max-sm:mx-14 md:mx-32">
             <div className="flex gap-2 items-center justify-center mb-6">
                 <svg width="6" height="48" viewBox="0 0 6 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M3 0V48" stroke="url(#paint0_linear_1_334)" strokeWidth="5"/>
@@ -73,7 +73,7 @@ const FaqPage = ({Data}) => {
                 </defs>
                 </svg>
             
-                <h3 className="font-bold text-3xl max-sm:text-4xl">FAQs</h3>
+                <h3 className="font-bold text-3xl max-sm:text-3xl">FAQs</h3>
             </div>
         {Data.map((items, index) => {
                 return(

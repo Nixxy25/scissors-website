@@ -49,7 +49,7 @@ const Footer = () => {
             </svg>    
         </div>
 
-            <div className="flex justify-around mx-20 max-sm:mx-10 max-sm:flex-col max-sm:gap-8">
+            <div className="flex justify-around mx-20 max-sm:mx-10 max-sm:flex-col max-lg:mx-10 max-lg:gap-8 max-sm:gap-8">
             
                 <div className="flex flex-col gap-2">
                     <div>
@@ -78,7 +78,7 @@ const Footer = () => {
                 </div>
 
             
-                <div className="flex flex-col gap-8">
+                <div className="flex flex-col gap-8 max-lg:text-sm">
                     <div className="h-32">
                         <h3 className="font-bold mb-2">Why Scissor ?</h3>
                         <p>Scissor 101</p>
@@ -99,7 +99,7 @@ const Footer = () => {
                     </div>    
                 </div>
 
-                <div className="flex flex-col gap-8">
+                <div className="flex flex-col gap-8 max-lg:text-sm">
                     <div className="h-32">
                         <h3 className="font-bold mb-2">Solutions</h3>
                         <p>Social Media</p>
@@ -120,7 +120,7 @@ const Footer = () => {
                 </div>
                 
 
-                <div className="flex flex-col gap-8">
+                <div className="flex flex-col gap-8 max-lg:text-sm">
                     <div className="h-32">
                         <h3 className="font-bold mb-2">Products</h3>
                         <p>Link Management</p>
@@ -139,7 +139,7 @@ const Footer = () => {
                     </div>
                 </div>
 
-                <div>
+                <div className="max-lg:text-sm">
                     <h3 className="font-bold mb-2">Company</h3>
                     <p>About Scissors</p>
                     <p>Carrers</p>
@@ -150,7 +150,7 @@ const Footer = () => {
                 </div>
             </div>
 
-            <div className="flex gap-2 justify-end mx-20 max-sm:mx-10 my-10">
+            <div className="flex gap-2 justify-end mx-20 max-sm:mx-8 my-10">
                 <p>Terms of Service |</p>
                 <p>Security |</p>
                 <p>Scissor 2024</p>

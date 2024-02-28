@@ -36,7 +36,7 @@ const FormPage = () => {
         <div className="bg-white p-10 relative  flex flex-col gap-4 bottom-0 left-0 right-0">
             <div><input className="rounded-lg w-full border-2 border-blue p-4 text-blue focus:outline-none placeholder-blue" type="text" placeholder="Paste Url here"></input></div>
 
-            <div className="flex  gap-8 max-sm:flex flex-col">
+            <div className="flex  gap-8 max-sm:flex-col">
               <div className="flex items-center rounded-lg border-2 border-blue p-4  focus:outline-none text-blue">
                 <input className="text-blue focus:outline-none placeholder-blue" type="text" placeholder="Choose Domain"></input>
                 <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6.08649 9L12.0865 15L18.0865 9" stroke="#141414" strokeLinecap="round" strokeLinejoin="round"/></svg>
