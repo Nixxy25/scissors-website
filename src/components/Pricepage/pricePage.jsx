@@ -25,7 +25,7 @@ const PricePage = ({PriceData}) => {
             </div>
 
             {PriceData.map((items, index) => (
-                <div key={index} className="flex gap-14 relative justify-around text-black mb-12 max-sm:flex-col max-lg:items-center max-lg:flex-col">
+                <div key={index} className="flex gap-14 relative justify-around  text-black mb-12 max-sm:flex max-sm:flex-col max-lg:grid max-lg:grid-cols-2">
                     {items.array1.map((arrayItems, arrayIndex) => (
                         <div key={arrayIndex} className="flex flex-col gap-6 border-2 border-blues rounded-lg p-12">
                             <h3 className="pb-6 text-xl">{arrayItems.title}</h3>
@@ -60,8 +60,8 @@ const PricePage = ({PriceData}) => {
                     ))}
 
                     {items.array2.map((arrayItems, arrayIndex) => (
-                        <div key={arrayIndex} className="flex absolute -top-14 rounded-lg max-lg:relative max-lg:top-0  justify-center flex-col gap-6 bg-deep-blue text-white z-20 p-12 max-sm:relative max-sm:top-0" style={{
-                            height:"600px",
+                        <div key={arrayIndex} className="flex absolute h-[600px] -top-14 rounded-lg max-lg:h-auto  max-lg:relative max-lg:top-0  justify-center flex-col gap-6 bg-deep-blue text-white z-20 p-12 max-sm:relative max-sm:top-0" style={{
+                            
                         }}>
                             <h3 className="pb-6 text-xl">{arrayItems.title}</h3>
                             <h1 className="text-2xl font-bold">{arrayItems.price}</h1>
