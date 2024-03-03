@@ -98,7 +98,7 @@ const PricePage = ({PriceData}) => {
                     ))}
 
                     {items.array3.map((arrayItems, arrayIndex) => (
-                        <div key={arrayIndex} className="flex flex-col gap-6 border-2 border-blues p-12">
+                        <div key={arrayIndex} className="flex flex-col gap-6 border-2 border-blues p-12 max-sm:left-0 max-lg:relative max-lg:left-1/2">
                             <h3 className="pb-6 text-xl">{arrayItems.title}</h3>
                             <h1 className="text-2xl font-bold">{arrayItems.price}</h1>
                             <h3>{arrayItems.more}</h3>
